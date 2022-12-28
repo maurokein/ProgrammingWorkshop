@@ -1,0 +1,50 @@
+Statonery Store Branches
+
+1.Staplers
+2.Card Indexes
+3.Chalks
+4.Stickers 
+5.Envelopes
+6.Scissors
+
+Branch 1
+price   code 
+300      10 
+450	     15 
+500      18 
+
+Branch 2 
+price   code
+80       24 
+72       28
+150      22 
+
+Branch 3
+price   code  
+10       31
+20       32
+60       33
+25       40
+86       20
+96       38
+15       50
+22       88
+2        1
+125      70
+
+Branch 4
+price    code
+60       100
+80       110 
+75       115 
+
+Branch 5 
+price    code
+ 100    200 
+ 150    201 
+
+Branch 6
+price    code
+300      440 
+450	     410 
+700      404
