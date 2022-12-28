@@ -1,0 +1,87 @@
+Input values:
+
+stringVector
+Genres: 
+Action
+Adventure
+Drama
+Suspense
+Comedy
+War
+Documentary
+Horror
+
+genreVector
+1: 6 movies
+2: 4 movies 
+3: 5 movies 
+4: 3 movies 
+5: 7 movies
+6: 4 movies 
+7: 1 movies 
+8: 10 movies 
+
+Input data: 40 movies in all
+
+gen= 1- Action
+'Enter the dragon' id=28 puntaje:7.7 
+'The warriors' id= 80 puntaje: 7.6 
+'Escape from New York' id=45 puntaje: 7.2 
+'Big trouble in little China' id=12  puntaje:7.3
+'Die Hard' id=90  puntaje:8.2
+'Letal Weapon' id=23  puntaje:7.6
+
+gen=2- Adventure
+'Riders of the Lost Ark' id=34  puntaje:8.4
+'The temple of doom' id=42  puntaje:7.6
+'The mummy' id=89  puntaje:7.0
+'Robin Hood' id=132  puntaje:6.9
+
+gen=3- Drama 
+'Fight Club' id=2  puntaje:8.8
+'The godfather' id=1  puntaje:9.2
+'One flew over the cuckoo´s nest' id=16  puntaje:8.7
+'The pianist' id=180  puntaje:8.5
+'Schindler´s list' id=15  puntaje:8.9
+
+
+gen=4- Suspense
+'Citizen Kane' id=192 p:8.3
+'Knives out' id=220 p:7.9
+'Us' id=222 p:6.8
+
+gen=5- Comedy
+'Toy Story 4' id:300 p:7.8
+'Lady Bird' id:230 p:7.4
+'BackKkKlansman' id:184 p:7.5
+'Eighth Grade' id:35 p:7.4
+'Modern Times' id:332 p:8.5
+'Booksmart' id:401 p:7.2 
+'A Night at the Opera' id:250 p:7.9 
+
+gen=6- War
+'Apocalypse Now' id:404 p:8.4
+'Dr. Strangelove' id:360 p:8.4
+'Saving Private Ryan' id:260 p:8.6
+'Full Metal Jacket' id:321 p:8.3
+
+gen=7- Documentary
+'Won't You Be My Neighbor?' id:500 p:8.4
+
+gen=8- Horror
+'Get Out' id=555 p:7.7
+'A Quiet Place ' id:602 p:7.5
+'The Cabinet of Dr. Caligari' id:333 p:8.1
+'Nosferatu, a Symphony of Horror' id:433 p:7.9
+'King Kong' id:666 p:7.9
+'Psycho' id:664 p:8.5
+'The Invisible Man' id:542 p:7.1 
+'The Bride of Frankenstein' id:222 p:7.8
+'The Babadook' id:444 p:6.8
+'Frankenstein' id:70 p:7.8
+
+
+Output: 
+Inside the array of best ranked movies by genre:  
+Best-ranked movie code: 1 ('The godfather')
+Worst-ranked movie code: 90 ('Die Hard')
