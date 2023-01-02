@@ -1,0 +1,5 @@
+Numbers entered 
+20 | 32 | 45 | 76 | 82 | 102 | 4 | 8 | 39 | 71 
+
+Minimum value: 4 
+Maximum value: 102 
