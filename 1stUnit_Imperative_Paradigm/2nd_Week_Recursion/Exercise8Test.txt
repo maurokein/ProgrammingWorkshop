@@ -1,0 +1,25 @@
+Input Values: 56, 32, 86, 16, 44, 74, 93, 8, 25 
+
+Formed Binary Search Tree 					              
+                        
+                        56 
+
+				    32  			                86
+
+			16          44          74          93 
+
+
+ 8        25    
+
+
+Number of elements: 9 
+Greatest number: 93 
+Lowest number: 8 
+
+Report in increasing order: 
+
+8 | 16 | 25  |  32  |  44 | 56 |  74  | 86 | 93 
+
+Report even numbers in decreasing order: 
+
+86  |  74  |  56  | 44  |  32  | 16 | 8      
