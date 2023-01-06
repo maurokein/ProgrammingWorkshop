@@ -1,0 +1,39 @@
+Student´s Information 
+
+  Name      LastName       Id        FileNumber       Ingress 
+ Diego      Maradona 	     1	        15000	           1986 
+ Lionel     Messi          2          6500             2022
+Zinedine    Zidane         3          2305             1998
+Francesco   Totti          4          8908             2006
+  Paolo     Maldini        5          4004             2006 
+ Javier     Iniesta        6          16000            2010 
+ Gordo      Ronaldo        7          5500             2002
+Kilyan      Mbappe         8          20000            2018
+
+Created Binary Search Tree: 
+
+				                  6500(Messi)
+                       /       \
+			         4004(Maldini)   8908(Totti)
+                       \           \
+		             5500(Ronaldo)     16000(Iniesta)
+                                     \
+						                           20000(Mbappe)
+
+Output displayTree: 
+
+Paolo Maldini 
+Gordo Ronaldo 
+Lionel Messi 
+Francesco Totti 
+Javier Iniesta 
+Kilyan Mbappe 
+
+Output conditionB: filenumber > 12803
+Javier Iniesta 
+Kilyan Mbappe 
+
+Output conditionC: 2803 > filenumber < 6982
+Lionel Messi 
+Paolo Maldini 
+Gordo Ronaldo 
