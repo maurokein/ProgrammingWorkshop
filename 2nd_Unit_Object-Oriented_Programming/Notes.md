@@ -1,10 +1,10 @@
 1-INTRODUCTION 
 EXECUTION ENVIRONMENT, JAVA KIT DEVELOPMENT, JAVA VIRTUAL MACHINE 
 
-The orograms can run on Windows as well as Linux or Android. 
+The programs can run on Windows as well as Linux or Android. 
 For this, there is a development platform: JDK (compiler, scrubber and documents generator). 
-Execution: JRE (JVM)-> Java Runrime Environment + Java Virtual Machine. 
-Code and execution of app.java. 
+Execution: JRE (JVM)-> Java Runtime Environment + Java Virtual Machine. 
+Coding and execution of app.java. 
 Once the program has been compiled, we obtain a .class file that can be executed on different operating systems. 
 
 MAIN STRUCTURE OF A JAVA PROJECT 
