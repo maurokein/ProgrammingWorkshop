@@ -1,0 +1,50 @@
+programa Ejercicio1A
+procesos
+  proceso juntarFlor(ES flor:numero)
+  comenzar 
+    mientras (HayFlorEnLaEsquina)
+      tomarFlor
+      flor:= flor + 1 
+  fin 
+
+  proceso dejarFlor(E flor:numero)
+  comenzar 
+    repetir flor 
+      depositarFlor
+  fin 
+  
+  proceso recorrerAvenida(ES flor:numero; ES esf:numero)
+  comenzar 
+    repetir 99 
+      si ~(HayFlorEnLaEsquina)
+        esf:= esf + 1
+      sino 
+        juntarFlor(flor)
+      mover
+    si ~(HayFlorEnLaEsquina)
+      esf:= esf + 1 
+    sino
+      juntarFlor(flor) 
+  fin
+areas 
+  areaR1: AreaP(1,1,7,100)
+robots 
+  robot tipo1 
+  variables 
+    f:numero
+    esq:numero 
+  comenzar 
+    repetir 3
+      f:= 0 
+      esq:= 0 
+      recorrerAvenida(f, esq)
+      dejarFlor(f)
+      Informar(f, esq)
+      Pos(PosAv+2,1)
+  fin 
+variables 
+  robot1: tipo1 
+comenzar 
+  AsignarArea(robot1, areaR1)
+  Iniciar(robot1, 1, 1)
+fin 
